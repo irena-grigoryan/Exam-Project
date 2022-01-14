@@ -1,0 +1,51 @@
+import { User } from './user.interface';
+
+export const USERS: User[] = [{
+  id: 1,
+  firstName: 'ნიკა',
+  lastName: 'ასაბაშვილი',
+  salary: 2500,
+  positionName: 'პროგრამისტი'
+}, {
+  id: 2,
+  firstName: 'ალექსანდრე',
+  lastName: 'ბახუტაშვილი',
+  salary: 2500,
+  positionName: 'პროგრამისტი'
+}, {
+  id: 3,
+  firstName: 'ვასილი',
+  lastName: 'ბერიაშვილი',
+  salary: 2500,
+  positionName: 'პროგრამისტი'
+}, {
+  id: 4,
+  firstName: 'ანა',
+  lastName: 'ბიბილაშვილი',
+  salary: 2500,
+  positionName: 'პროგრამისტი'
+}, {
+  id: 5,
+  firstName: 'როლანდი',
+  lastName: 'გახოკიძე',
+  salary: 2500,
+  positionName: 'პროგრამისტი'
+}, {
+  id: 6,
+  firstName: 'ირენა',
+  lastName: 'გრიგორიანი',
+  salary: 2500,
+  positionName: 'პროგრამისტი'
+}, {
+  id: 7,
+  firstName: 'ლუკა',
+  lastName: 'ირემაშვილი',
+  salary: 2500,
+  positionName: 'პროგრამისტი'
+}, {
+  id: 8,
+  firstName: 'ეკა',
+  lastName: 'ქირია',
+  salary: 2500,
+  positionName: 'პროგრამისტი'
+}];

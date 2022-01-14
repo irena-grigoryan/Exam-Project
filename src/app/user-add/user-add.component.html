@@ -1,0 +1,23 @@
+<div>
+  <div style="margin-top: 20px">
+    <label for="user-firstName">სახელი: </label>
+    <input id="user-firstName" [(ngModel)]="userToAdd.firstName" placeholder="სახელი">
+  </div>
+
+  <div style="margin-top: 20px">
+    <label for="user-lastName">გვარი: </label>
+    <input id="user-lastName" [(ngModel)]="userToAdd.lastName" placeholder="გვარი">
+  </div>
+
+  <div style="margin-top: 20px">
+    <label for="user-salary">ხელფასი: </label>
+    <input id="user-salary" [(ngModel)]="userToAdd.salary" placeholder="ხელფასი">
+  </div>
+
+  <div style="margin-top: 20px">
+    <label for="user-position">პოზიცია: </label>
+    <input id="user-position" [(ngModel)]="userToAdd.positionName" placeholder="პოზიცია">
+  </div>
+  <button (click)="add()">შენახვა</button>
+  <button (click)="goBack()">უკან დაბრუნება</button>
+</div>

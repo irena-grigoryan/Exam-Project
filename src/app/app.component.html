@@ -1,0 +1,20 @@
+<h1>Tour of Users</h1>
+<nav>
+  <a routerLink="dashboard" [ngClass]="{'active': activeRoute == 'dashboard'}">Dashboard</a>
+  <a (click)="navigate('users')" [ngClass]="{'active': activeRoute == 'users'}">Users</a>
+</nav>
+<router-outlet></router-outlet>
+
+<ul>
+  <li *ngFor="let log of getLogs()" appHighlight>
+    {{log}}
+  </li>
+</ul>
+
+<span>{{date | date:"MM/dd/yy"}}</span>
+<br>
+<span>{{d | epxonential:3}}</span>
+<br>
+<span>{{pow(d,3)}}</span>
+<br>
+<button (click)="test()">test</button>
